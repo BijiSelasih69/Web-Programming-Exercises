@@ -51,6 +51,7 @@
 				<td>$umur</td>";
 				$nomor++;
 		}
+		echo "</tr>";
 	}
 	echo "</table>";
 	echo "Jumlah Data Mahasiswa : ".count(file($namaFile))."";
